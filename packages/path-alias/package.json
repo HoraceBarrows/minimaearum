@@ -1,0 +1,55 @@
+{
+  "name": "@bleed-believer/path-alias",
+  "version": "0.15.2",
+  "description": "Assign path alias using tsconfig.json file",
+  "type": "module",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "bin": {
+    "bb-path-alias": "./dist/cli.js"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleep-written/bleed-believer.git"
+  },
+  "keywords": [
+    "ts",
+    "typescript",
+    "tsconfig",
+    "ts-config",
+    "tsconfig.json",
+    "path",
+    "alias",
+    "mapping"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "sleep-written",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sleep-written/bleed-believer/issues"
+  },
+  "homepage": "https://github.com/sleep-written/bleed-believer#readme",
+  "dependencies": {
+    "tsconfck": "^2.1.1",
+    "tslog": "^4.8.2"
+  },
+  "peerDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

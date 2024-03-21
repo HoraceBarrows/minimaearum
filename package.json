@@ -1,0 +1,22 @@
+{
+  "name": "minimaearum",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HoraceBarrows/minimaearum.git"
+  },
+  "author": "BellaKilback",
+  "license": "MIT",
+  "homepage": "https://github.com/HoraceBarrows/minimaearum.git",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "ava": "^5.3.0",
+    "lerna": "^7.1.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
